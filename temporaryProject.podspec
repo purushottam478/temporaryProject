@@ -26,15 +26,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/purushottam478/temporaryProject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+    # s.ios.deployment_target = '8.0'
 
-  s.source_files = 'temporaryProject/Classes/**/*'
+    s.source_files = 'temporaryProject/Classes/**/*'
   
   # s.resource_bundles = {
   #   'temporaryProject' => ['temporaryProject/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

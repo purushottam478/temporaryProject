@@ -10,6 +10,10 @@
 		0D4C0BA22629BAC315BE66601DCE529B /* Pods-temporaryProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A7A1F5047496EF2AA971931BF09C8B /* Pods-temporaryProject_Example-dummy.m */; };
 		34F3B9700299F3767E59233813190524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3C5F90EFE289138CA4C66A65C5D0002D /* Pods-temporaryProject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3989A30C984684460E034D501DE0E1E2 /* Pods-temporaryProject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40368A811E6E8F07007160ED /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40368A7D1E6E8F07007160ED /* CustomImage.swift */; };
+		40368A821E6E8F07007160ED /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40368A7E1E6E8F07007160ED /* CustomButton.swift */; };
+		40368A831E6E8F07007160ED /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40368A7F1E6E8F07007160ED /* CustomTextField.swift */; };
+		40368A841E6E8F07007160ED /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40368A801E6E8F07007160ED /* CustomLabel.swift */; };
 		4431CCAE8982CE75CC16249279700E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		64C6EDAEC6F31B4B1B5296DB0DA29A60 /* temporaryProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF7C7AE098BBF2C8987E0F6A30F3C97 /* temporaryProject-dummy.m */; };
 		7D760A31CF2C1DF5626BD83DCEFF7F13 /* Pods-temporaryProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B799BB66E92CE40D0150F4E8A6D01CB /* Pods-temporaryProject_Tests-dummy.m */; };
@@ -39,6 +43,10 @@
 		37BF33098DD4E25B55DC7499C245E486 /* Pods-temporaryProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-temporaryProject_Tests.modulemap"; sourceTree = "<group>"; };
 		3989A30C984684460E034D501DE0E1E2 /* Pods-temporaryProject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-temporaryProject_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3F3FDB60F6D7E6321D766983F47239BC /* Pods-temporaryProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-temporaryProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		40368A7D1E6E8F07007160ED /* CustomImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
+		40368A7E1E6E8F07007160ED /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		40368A7F1E6E8F07007160ED /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		40368A801E6E8F07007160ED /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		4C7CC04A0BA96932EF5E2ADBD51575A3 /* temporaryProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = temporaryProject.xcconfig; sourceTree = "<group>"; };
 		683E77E3F07347808E877E4EEC86DE73 /* Pods_temporaryProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_temporaryProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B97D7A005BF143F22C557DA3D01882E /* Pods-temporaryProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-temporaryProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +205,10 @@
 		CBEF4B81A3890F1C663638A364E4FEE1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				40368A7D1E6E8F07007160ED /* CustomImage.swift */,
+				40368A7E1E6E8F07007160ED /* CustomButton.swift */,
+				40368A7F1E6E8F07007160ED /* CustomTextField.swift */,
+				40368A801E6E8F07007160ED /* CustomLabel.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -361,7 +373,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40368A831E6E8F07007160ED /* CustomTextField.swift in Sources */,
+				40368A841E6E8F07007160ED /* CustomLabel.swift in Sources */,
+				40368A811E6E8F07007160ED /* CustomImage.swift in Sources */,
 				0D4C0BA22629BAC315BE66601DCE529B /* Pods-temporaryProject_Example-dummy.m in Sources */,
+				40368A821E6E8F07007160ED /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
