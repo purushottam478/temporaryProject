@@ -1,7 +1,9 @@
+platform :ios, '8.0'
+
 use_frameworks!
 
 target 'temporaryProject_Example' do
-  pod 'temporaryProject', :path => '../'
+  pod 'temporaryProject', :path => 'temporaryProject.podspec'
 
   target 'temporaryProject_Tests' do
     inherit! :search_paths
