@@ -1,0 +1,6 @@
+framework module temporaryProject {
+  umbrella header "temporaryProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - temporaryProject (0.1.0)
+
+DEPENDENCIES:
+  - temporaryProject (from `../`)
+
+EXTERNAL SOURCES:
+  temporaryProject:
+    :path: ../
+
+SPEC CHECKSUMS:
+  temporaryProject: 49bcd3d0a775f43f88765bc569d6eec7d3bc3170
+
+PODFILE CHECKSUM: eb8bc0837d8d600ea2f2769de244e459fbda2196
+
+COCOAPODS: 1.1.1
